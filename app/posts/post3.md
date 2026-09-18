@@ -122,9 +122,6 @@ Matching against the value of the type of a list/map was allowed. But attempting
 ### Expressions as Types
 The biggest hurdle so far was the fact that Pie allowed expressions to be used as types. Pie, being an interpreted language, relies heavily on runtime machinery. This, in turn, makes it _very_ flexible in a lot of different ways, notably its type system.
 
-
-<!-- Pie has a [structural type system](https://en.wikipedia.org/wiki/Structural_type_system), which means the type-checker is only concerned with the shape of the type, as opposed to the name of it. -->
-
 Types can be computed at runtime in Pie:
 ```pie
 .: function/closure definition
