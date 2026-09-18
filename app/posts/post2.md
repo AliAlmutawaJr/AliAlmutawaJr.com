@@ -106,7 +106,7 @@ The same idea applies backwards in the case of the parameter types. If the closu
 ## The Interesting Bit!
 
 ### Structural Typing:
-Pie has a [structural type system](https://en.wikipedia.org/wiki/Structural_type_system). This means that the type-checker is only concerned with the shape of the type, as opposed to with the name of it.
+Pie has a [structural type system](https://en.wikipedia.org/wiki/Structural_type_system). This means that the type-checker is only concerned with the shape of the type, as opposed to the name of it.
 For example, in Pie, these 2 classes are considered the same type:
 ```pie
 C1 = class {
