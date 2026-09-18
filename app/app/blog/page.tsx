@@ -6,6 +6,7 @@ import Footer from "../components/Footer/Footer";
 const posts = [
   { id: "1", title: "The Namespace Problem"},
   { id: "2", title: "Pie's Type System" },
+  { id: "3", title: "The Evolution of Pattern Matching in Pie" },
 ];
 
 export default function Blog() {
